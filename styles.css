@@ -1,0 +1,426 @@
+html {background-color: #f7f7f7;
+    color: #00303F;}
+
+nav {box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-family: "andale mono", calibri, "century gotic";
+    font-variant: small-caps;
+    font-size: 120%;
+    margin: 0 auto;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.navbar-brand{
+    border:none;
+    width: 10%;
+}
+
+.bg-faded{
+    background-color: #f7f7f7;
+
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+
+}
+a{
+    color: #7A9D96;
+    font-size: 110%;
+    text-decoration: none;
+    border-right: solid;
+    border-color: rgb(244,38,38) ;
+    text-align: center;
+}
+
+a:hover{
+    color:#000000;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+a:focus{
+    color:#000000;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+a:active{
+    color: #7A9D96;
+    font-size: 110%;
+    text-decoration: none;
+    border-right: solid;
+    border-color: rgb(244,38,38);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-link{
+    font-family:"avenir book", calibri, "century gotic";
+    padding-right: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-toggleable-sm .navbar-nav .nav-link {
+    position: relative;
+    padding-right: 2rem;
+}
+
+.navbar-nav{
+    padding-left: 10%;
+}
+
+.float-right{
+    float: right;
+    width: 70%;
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 768px){
+
+    a{
+        border-right:none;
+    }
+
+    .float-right{
+        width: 35%;
+        display: inline-block;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: -19rem;
+    }
+    a:hover{
+        color:#000000;
+        font-size: 110%;
+        text-decoration: none;
+    }
+
+    img{
+        margin-top: 15%;
+    }
+
+    .lead{
+        margin-top: 20%;
+    }
+}
+
+body {
+
+    background-color: #f7f7f7;
+    background-size: 100%;
+}
+
+.me{color: #8E7970;
+    text-decoration: none;
+    border-right: solid;
+    padding: 3%;}
+
+p{font-family: "avenir book", calibri, "century gotic";
+    font-size: 110%;
+    text-align: left;
+    background-color: #f7f7f7;
+    padding: 3%;
+    padding-bottom: 0%;
+    padding-left: 0%
+}
+
+h1{font-family: "avenir book", calibri, "century gotic";
+    font-size: 150%;
+    font-variant: small-caps;
+    color: #00303F;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 5%}
+
+img{display: block;
+    width: 55%;
+    opacity: 0.9;
+    margin:auto;
+    margin-left: 25%;
+}
+
+ul{font-family: "avenir book", calibri, "century gotic";
+    font-size: 120%;
+}
+
+h2{font-family: "avenir book", calibri, "century gotic";
+    color:#000000;
+}
+
+h3{font-family: "avenir book", calibri, "century gotic";
+    font-size: 140%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+    border-color: rgb(244,38,38);
+    text-align: center;
+}
+
+h4{
+    font-family: "avenir book", calibri, "century gotic";
+    font-size: 120%;
+}
+
+h5{
+    font-family: "avenir book", calibri, "century gotic";
+    font-size: 120%;
+    text-align: center;
+}
+
+.title{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 120%;
+}
+
+.rounded-circle{
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(244,38,38);
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.funFacts{
+    width: 75%;
+    margin:5%;
+    padding-left: 2%;
+}
+
+.meIn30S{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 110%;
+    padding-top: 3%;
+    text-align: left;
+    vertical-align: center;
+    margin-left: 5%;
+}
+
+.lead{
+    font-family: "avenir book", calibri, "century gotic";
+    font-size: 110%;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.list-unstyled{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 110%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: inline;
+}
+
+.mail{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    border: none;
+}
+
+.item{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 100%;
+    padding-top: 0%;
+    text-align: left;
+    vertical-align: center;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.fa{
+    font-family:"avenir book", calibri, "century gotic";
+    padding-bottom: 7%;
+    display: inline-block;
+}
+
+.content{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 110%;
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+.logoAchtergrond{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 25%;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.fa-star, .fa-star-half-o, .fa-star-o{
+    color: rgb(244,38,38);
+    opacity: .8;
+    padding: 1%;
+    vertical-align: middle;
+}
+
+.fa-star:hover{
+    font-size: 110%;
+}
+.fa-star-half-o:hover{
+    font-size: 110%;
+}
+.fa-star-o:hover{
+    font-size: 110%;
+}
+
+
+.ability-score{
+    font-family:"avenir book", calibri, "century gotic";
+    font-size: 110%;
+    padding-bottom: 3%;
+}
+
+.ability-title{
+    padding-left: 3%;
+}
+
+.movie{
+    text-align: center;
+    padding: 8%;
+    width: 100%;
+    height: 120%;
+    padding-top: 6%;
+}
+
+.btn{
+    margin-left: 10%;
+    font-size: 110%
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin-left: 15%;
+    margin-top: 10%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:2%;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #000000;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+iframe{
+    border-width: 0px;
+}
+
+.carousel-item{
+    width: 50%;
+    margin: auto;
+    border-left: none;
+    padding-top: 5%;
+}
+
+.img-fluid{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(244,38,38);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(244,38,38);
+}
+
+.carousel-control-prev{
+    border: none;
+}
+
+.carousel-indicators li{
+    background-color:rgb(244,38,38);
+
+}
+
+.x{
+    color: rgb(244,38,38);
+    font-weight: bold;
+    font-size: large;
+}
+
+.x-factor{
+    display: block;
+    width: 70%;
+    opacity: 0.9;
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 15%;
+}
